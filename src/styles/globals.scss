@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat&display=swap");
+@import "./vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-content;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/images/fundo.png");
+  background-repeat: repeat;
+  background-position: cover;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $color-darkgray;
+}
